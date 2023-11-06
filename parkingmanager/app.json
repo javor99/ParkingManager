@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "parkingmanager",
+    "slug": "parkingmanager",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tallyshark.parkingmanager",
+      "buildNumber":"4",
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription":"App uses user's location so we can show him parkings that are closest to him first and show him the distance from parkings. We dont save his location in our db. EXAMPLE:User wants to see what parkings are closest to him so he can choose parking optimally"
+      
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+        
+      
+      },
+      "versionCode":2,
+      "package": "com.tallyshark.parkingmanager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8576c665-bd9e-45b2-afd1-f91f31a77458"
+      }
+    }
+  }
+}
