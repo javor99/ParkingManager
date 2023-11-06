@@ -4,7 +4,7 @@ Parking Manager is an app that helps you with choosing the perfect parking spot 
 It connects to smart cameras on our local network which count the occupied parking spots.
 It shows all parking data there is!!
 
-
+Code is shown on the master branch.
 
 
 ![WhatsApp Image 2023-10-21 at 11 45 03](https://github.com/javor99/ParkingManager/assets/96128565/8b99b455-5319-4103-bde7-361d639471ae)
